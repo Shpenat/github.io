@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/css/bootstrap.min.css" integrity="sha512-T584yQ/tdRR5QwOpfvDfVQUidzfgc2339Lc8uBDtcp/wYu80d7jwBgAxbyMh0a9YM9F8N3tdErpFI8iaGx6x5g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <script src="https://yastatic.net/jquery/3.3.1/jquery.min.js"></script>
+    <div class="page">
+    <!-- NAV #1 и HEADER -->  
+        <div class="container"> 
+            <!-- NAV #1 -->    
+            <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ffffff;">
+                <div class="navbar-brand">
+                    <img src="logo.png" width="40" height="40" style="opacity: 70%;">
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto nav">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="index.html">Главная <span class="sr-only">(текущая)</span></a>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                      <a class="nav-link " href="#conteiner" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Каталог
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="index1.html">Анатомия</a>
+                        <a class="dropdown-item" href="index2.html">Рисунок</a>
+                        <a class="dropdown-item" href="index3.html">Живопись</a>
+                        <a class="dropdown-item" href="index4.html">Комиксы</a>
+                      </div>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="index5.html">Об искусстве</a></li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Поиск" aria-label="Поиск">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Поиск</button>
+                  </form>
+                </div>
+            </nav>
+                          
+            <!-- HEADER -->
+            <header>
+                <div class="card text-white border-0">
+                    <video  loop autoplay muted>
+                        <source src="index/main.mp4" type="video/mp4" style="height: 460px;"/>
+                    </video>
+                    <div class="card-img-overlay title " style="width: 70%;">
+                      <h5 class="card-title p1" >ЛИТЕРАТУРА ДЛЯ ХУДОЖНИКОВ</h5>
+                      <p class="card-text p2" style="width: 100%;">Каталог электронных пособий по рисованию</p>
+                    </div>
+                  </div>   
+            </header>
+            
+        </div>
+    
+    <!-- ОСНОВНОЙ КОНТЕНТ -->
+    <main> 
+        <div class="space"></div>
+        <div class="container">
+            <div class="row mx-auto quote" style="max-width: 90%;">
+                <div class="col-sm" style="padding-right: 10%; padding-bottom: 10%;">
+                    <p class="quote1">Изучайте правила как профессионал, чтобы вы могли разрушить их как художник</p>
+                    <p class="quote2">- Pablo Picasso</p>
+                </div>
+                <div class="col-sm">
+                    <p class="quote3">Художнику, как человеку создающему, творческому, необходимо постоянно развивать свои навыки, и помочь в этом сможет обучающая литература, в которой мастера делятся своим опытом и дают советы.</p>
+                    <p class="quote4">На данном сайте представлены лучшие пособия по рисованию, способные дать много полезной информации как для начинающих художников, так и для профессионалов. </p>
+                </div>
+
+            </div>
+        </div>
+        
+    <div class="space"></div>
+    
+    <div id="conteiner">
+        <div class="row mx-auto" style="max-width: 1152px;">
+            <div class=" col-md-1"></div>
+            <div class=" col-md-4 col-md-push-4"><h1 style="font-family: Sylfaen; height: 100px; ">Каталог</h1></div>
+        </div>
+        <div class="row mx-auto" style="max-width: 1152px; font-family: 'Century gothic';">    
+            <div class="col-sm-12 mx-auto">
+            <div class="card mb-3">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <a href="index1.html"><img src="index/k11.jpg" class="card-img"></a>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <a href="index1.html"><h5 class="card-title">Анатомия</h5></a>
+                        <p class="card-text">Пластическая анатомия для художников — важнейший элемент обучения. Данное направление 
+                            изучает изменения форм и частей тела людей и животных во время движения. Пластическая анатомия, как наука, 
+                            опирается на знания о внутреннем строении. Основными элементами, которые изучаются является кожа, мышцы и 
+                            скелет. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <a href="index2.html"><img src="index/k2.jpg" class="card-img"></a>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <a href="index2.html"><h5 class="card-title">Рисунок</h5></a>
+                        <p class="card-text">Рисунок - это отдельное художественное произведение, художественно-графическое изображение, 
+                            выполненное художником вручную на бумаге или картоне карандашом, тушью, углём, ручкой или другими графическими 
+                            материалами. Рисунок - это продукт отражения реального мира с его характерными особенностями, пропорциями, 
+                            формой, объёмом, фактурами и так далее в плоскости листа.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <a href="index3.html"><img src="index/k3.jpg" class="card-img"></a>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <a href="index3.html"><h5 class="card-title">Живопись</h5></a>
+                        <p class="card-text">Благодаря воплощению в красках статичности и динамичности движений героев, сюжетной линии и 
+                            тонкости эмоциональных переживаний, живопись 
+                            не только изображает реальную картину мира, но и несёт просветительскую функцию, раскрывает суть исторических 
+                            событий и процессов, выражает социальную и политическую позицию художника, словом, приобретает черты средства 
+                            отображения и интерпретации авторской идеи и реальной действительности.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <a href="index4.html"><img src="index/k4.jpg" class="card-img"></a>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <a href="index4.html"><h5 class="card-title">Комиксы</h5></a>
+                        <p class="card-text">Последовательное искусство относится к художественной форме использования последовательности 
+                            изображений, отображаемых последовательно, в графическое повествование или передачу информации. Наиболее 
+                            известным примером последовательного искусства является комикс, который является соглашением художественных 
+                            гравюр и воздушных шаров, особенно в комиксах и графических романах.</p>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        </div>
+    </div>
+    </main>
+    
+    </div> 
+    <!-- FOOTER -->
+    <footer  class="footer">
+        <div class="container">
+            <div class="social">
+                <div class="icons" >
+                    <div class="icon"><img src="footer/instagram.png" width="40" height="40" ></div>
+                    <a href="https://www.instagram.com/"><div class="icon icon-hidden"><img src="footer/instagram1.png" width="40" height="40" ></div></a>
+                </div>
+                <div class="icons">
+                    <div class="icon"><img src="footer/telegram.png" width="40" height="40"></div>
+                    <a href="https://telegram.org/"><div class="icon icon-hidden"><img src="footer/telegram1.png" width="40" height="40" ></div></a>
+                </div>
+                <div class="icons">
+                    <div class="icon"><img src="footer/vk.png" width="40" height="40" ></div>
+                    <a href="https://vk.com/"><div class="icon icon-hidden"><img src="footer/vk1.png" width="40" height="40" ></div></a>
+                </div>
+               
+            </div>
+        </div>  
+    </footer>
+    
+    <script src="main.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/js/bootstrap.min.js" integrity="sha512-UR25UO94eTnCVwjbXozyeVd6ZqpaAE9naiEUBK/A+QDbfSTQFhPGj5lOR6d8tsgbBk84Ggb5A3EkjsOgPRPcKA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
